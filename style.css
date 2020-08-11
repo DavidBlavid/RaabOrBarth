@@ -1,0 +1,114 @@
+body {
+
+	background-image: linear-gradient(to right, #3c3b3f, #605c3c);
+
+}
+
+h1 {
+
+	color: #FFF;
+	font-family: 'Recursive', sans-serif;
+	text-align: center;
+	margin: 20px;
+	font-size: 30pt;
+
+	text-shadow: 2px 2px 4px #222;
+
+}
+
+.footer {
+	
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.1);
+	
+	display: block;
+	
+	margin: 0px;
+	padding: 2px;
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10pt;
+	
+	bottom: 0;
+	left: 0;
+	
+	color: #000;
+	text-align: center;
+	
+}
+
+.big-button {
+
+	border-radius: 14px;
+
+	display: inline-block;
+	
+	float: none;
+    margin: 10px;
+
+	padding: 14px;
+	width: 6rem;
+	
+	text-align: center;
+
+}
+
+#big-image {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	text-align: center;
+	
+	border: 2px solid;
+	border-radius: 20px;
+	
+	transition: ease 0.3s;
+	
+
+}
+
+#button-container {
+	
+	display: inline;
+	text-align: center;
+	
+	position: absolute;
+	
+	width: 100%;
+	
+	margin-top: 20px;
+	
+}
+
+#score-container {
+	
+	background: #eee;
+	width: 5%;
+	padding: 3px;
+	padding-bottom: 8px;
+	
+	height: 40px;
+	
+	margin: 0 auto;
+	margin-top: 120px;
+	
+	border-radius: 10px;
+	border: 1px solid gray;
+	
+}
+
+#score {
+	
+	text-align: right;
+	vertical-align: middle;
+	
+	font-size: 40px;
+	font-family: 'Recursive', sans-serif;
+	
+	display: table;
+	margin: 0 auto;
+	
+}
